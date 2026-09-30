@@ -16,6 +16,7 @@ export const site = {
     github: "https://github.com/qc-iiti",
     instagram: "https://www.instagram.com/quantum_computing_iiti/",
     linkedin: "https://www.linkedin.com/company/qc-iiti/posts/",
+    discord: "https://discord.gg/M8MpU2AZj",
     email: "quantum@iiti.ac.in ",
   },
 };

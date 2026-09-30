@@ -61,6 +61,11 @@ export default function Footer() {
           <p className="eyebrow mb-4">Elsewhere</p>
           <ul className="space-y-3">
             <li>
+              <a href={site.socials.discord} className="text-sm text-mist-300 hover:text-mist-100">
+                Discord
+              </a>
+            </li>
+            <li>
               <a href={site.socials.github} className="text-sm text-mist-300 hover:text-mist-100">
                 GitHub
               </a>
