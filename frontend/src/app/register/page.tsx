@@ -19,7 +19,10 @@ export default function RegisterPage() {
           <p className="mt-4 text-base text-mist-500">
             Free for all students. Takes under two minutes. Registering for the hackathon
             separately? Head to the{" "}
-            <a href={site.hackathonUrl} className="text-bloom-400 underline underline-offset-4">
+            <a
+              href="https://qc-iiti.github.io/Qiskit-Fall-Fest-2026/hackathon/"
+              className="text-bloom-400 underline underline-offset-4"
+            >
               hackathon sign-up
             </a>
             .
