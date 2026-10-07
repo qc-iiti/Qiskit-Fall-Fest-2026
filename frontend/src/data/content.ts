@@ -102,13 +102,41 @@ export type Speaker = {
   role: string;
   org: string;
   topic: string;
+  image?: string;
+  linkedin?: string;
 };
 
 export const speakers: Speaker[] = [
-  { name: "Speaker name", role: "Research Scientist", org: "IBM Quantum", topic: "Scaling quantum hardware" },
-  { name: "Speaker name", role: "Faculty Advisor", org: "IIT Indore", topic: "Barren plateaus in QML" },
-  { name: "Speaker name", role: "Quantum Engineer", org: "Trevasq", topic: "Post-quantum cryptography" },
-  { name: "Speaker name", role: "Applied Scientist", org: "Quanfluence", topic: "Quantum finance pipelines" },
+  {
+    name: "Speaker name",
+    role: "Research Scientist",
+    org: "IBM Quantum",
+    topic: "Scaling quantum hardware",
+    linkedin: "#",
+  },
+  {
+    name: "Bhavna Bose Gupta",
+    role: "Faculty Advisor",
+    org: "IIT Indore",
+    topic: "Barren plateaus in QML",
+    image: "/images/bhavna.jpg",
+    linkedin: "https://www.linkedin.com/in/bhavna-bose-gupta-13949610/",
+  },
+  {
+    name: "Speaker name",
+    role: "Quantum Engineer",
+    org: "Trevasq",
+    topic: "Post-quantum cryptography",
+    linkedin: "#",
+  },
+  {
+    name: "Biman Chattopadhyay",
+    role: "Applied Scientist",
+    org: "Quanfluence",
+    topic: "Quantum finance pipelines",
+    image: "/images/biman.jpg",
+    linkedin: "https://www.linkedin.com/in/biman-chattopadhyay-532a6753/",
+  },
 ];
 
 export const hackathonInfo = {
